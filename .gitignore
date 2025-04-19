@@ -1,0 +1,40 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+pytorch_env/
+
+# Model files (large binary files)
+*.pth
+
+# CHPC cluster logs
+project_*.out
+project_*.err
+
+# macOS system files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
+
+# Dataset files (already removed, but added for safety)
+images/
+metadata.csv
+dataset.zip
+annotations/
+docs/
+scripts/
+tests/
+volumes/
+requirements.txt
+SCHEMA.md
+
+# Course-related files
+ProjectInstructions.docx
+
+# GitHub workflows (not needed for this project)
+.github/
